@@ -15,5 +15,5 @@ setup(
     version="0.1",
     description="Verifica ip com ping !",
     options={"build_exe": build_exe_options},
-    executables=[Executable("teste.py", base=base)]
+    executables=[Executable("app.py", base=base)]
 )
