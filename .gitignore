@@ -1,2 +1,5 @@
 # ignorar arquivo do excel
 *.xlsx
+
+# ignorar log
+log.txt
