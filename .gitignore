@@ -2,7 +2,7 @@
 *.xlsx
 
 # ignorar pasra
-__pycache/
+.__pycache/
 
 # ignorar log
 log.txt
