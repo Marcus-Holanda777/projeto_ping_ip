@@ -3,3 +3,6 @@
 
 # ignorar log
 log.txt
+
+# iginorar cache
+__pycache__/
