@@ -1,8 +1,8 @@
-# ignorar arquivo do excel
+# ignorar excel
 *.xlsx
+
+# ignorar pasra
+__pycache/
 
 # ignorar log
 log.txt
-
-# ignorar cache
-.__pycache__/
