@@ -4,5 +4,5 @@
 # ignorar log
 log.txt
 
-# iginorar cache
-__pycache__/
+# ignorar cache
+.__pycache__/
