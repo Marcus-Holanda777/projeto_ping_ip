@@ -50,6 +50,13 @@ def main():
     plan = pasta.active
     ultima_linha = plan.max_row
 
+    pasta_root = 'LOG_PING'
+
+    if not os.path.isdir(pasta_root):
+        os.mkdir(pasta_root)
+
+    saida_padrao = os.path.join(pasta_root, EXCEL_BASE_SAIDA)
+
     for row in range(LINHA_INICIAL, ultima_linha + 1):
         msg = f'Loja: {plan.cell(row, 1).value}. IP: {plan.cell(row, 3).value}'
 
@@ -84,7 +91,7 @@ def main():
         sys.stdout.write('\r' + msg_log)
         sys.stdout.flush()
 
-    pasta.save(EXCEL_BASE_SAIDA)
+    pasta.save(saida_padrao)
     pasta.close()
 
 

@@ -3,6 +3,7 @@
 
 # ignorar pasra
 __pycache__/
+LOG_PING/
 
 # ignorar log
 log.txt
